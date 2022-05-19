@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header__link {
+  font-size: 17px;
+}
+
+nav {
+  padding: 0 20px;
+}
+
+.content {
+  min-height: calc(100vh - 64px - 70px);
+  padding: 20px 0;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movies__card {
+  border: 1px solid #e9e9e9;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.movies__img {
+  position: relative;
+  height: 400px;
+}
+
+.movies__img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.movies__birthday {
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 10px;
+  left: 10px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+.movies__died {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.indeterminate {
+  width: 70%;
+}
+
+.movies__name {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.search {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+  position: static;
+  opacity: 1;
+}
+
+.search__radio {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__radio-input {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.search__radio-input input {
+  margin-left: 10px;
+}
+
+.page-footer {
+  padding: 0;
+
+}
+
+.page-footer .footer-copyright {
+  background-color: #43A047 !important;
+}
+
+.preloader {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preloader__header {
+  margin: 0;
+  font-size: 20px;
+  margin-left: 20px;
+}

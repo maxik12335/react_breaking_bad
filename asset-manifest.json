@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_breaking_bad/static/css/main.654769f3.css",
+    "main.js": "/react_breaking_bad/static/js/main.d1a14f33.js",
+    "index.html": "/react_breaking_bad/index.html",
+    "main.654769f3.css.map": "/react_breaking_bad/static/css/main.654769f3.css.map",
+    "main.d1a14f33.js.map": "/react_breaking_bad/static/js/main.d1a14f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.654769f3.css",
+    "static/js/main.d1a14f33.js"
+  ]
+}
